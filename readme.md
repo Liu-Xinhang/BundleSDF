@@ -90,7 +90,7 @@ python run_custom.py --mode get_mesh --video_dir /home/bowen/debug/2022-11-18-15
 # Run on HO3D dataset
 ```
 # Run BundleSDF to get the pose and reconstruction results
-python run_ho3d.py --video_dirs /mnt/9a72c439-d0a7-45e8-8d20-d7a235d02763/DATASET/HO3D_v3/evaluation/SM1 --out_dir /home/bowen/debug/ho3d_ours
+python run_ho3d.py --video_dirs /home/liuxinhang/Projects/BundleSDF/HO3D_v3/evaluation/SM1 --out_dir /home/bowen/debug/ho3d_ours
 
 # Benchmark the output results
 python benchmark_ho3d.py --video_dirs /mnt/9a72c439-d0a7-45e8-8d20-d7a235d02763/DATASET/HO3D_v3/evaluation/SM1 --out_dir /home/bowen/debug/ho3d_ours
